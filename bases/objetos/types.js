@@ -1,16 +1,17 @@
 "use strict";
-(() => {
-    let flash = {
+(function () {
+    var flash = {
         name: 'barry allen',
         age: 24,
         powers: [1, 2]
     };
-    let superman = {
+    var superman = {
         name: 'Clark kent',
         age: 60,
         powers: [1],
-        getName() {
+        getName: function () {
             return this.name;
         }
     };
 })();
+//# sourceMappingURL=types.js.map

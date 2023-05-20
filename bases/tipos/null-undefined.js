@@ -1,6 +1,5 @@
 "use strict";
-(() => {
-    // strctNullChecks
-    let isActive = null;
-    // console.log(isActive);
+(function () {
+    var isActive = null;
 })();
+//# sourceMappingURL=null-undefined.js.map

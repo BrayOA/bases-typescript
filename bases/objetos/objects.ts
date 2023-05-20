@@ -14,7 +14,8 @@
 
     }
 
-
+    console.log(flash);
+    
     
     
 

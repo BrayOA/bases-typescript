@@ -1,11 +1,12 @@
 "use strict";
-(() => {
+(function () {
     function callBack() {
         return;
     }
-    const callSuperman = () => {
+    var callSuperman = function () {
         return;
     };
-    const a = callBack();
+    var a = callBack();
     console.log(a);
 })();
+//# sourceMappingURL=void.js.map

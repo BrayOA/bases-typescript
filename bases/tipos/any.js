@@ -1,13 +1,13 @@
 "use strict";
-(() => {
-    let avenger = '123';
-    let exists;
-    let power;
+(function () {
+    var avenger = '123';
+    var exists;
+    var power;
     avenger = 'Dr Strange';
-    // console.log(avenger.charAt(0) );
     console.log(avenger.charAt(0));
     avenger = 150.232556415;
     console.log(avenger.toFixed(2));
     console.log(exists);
     console.log(power);
 })();
+//# sourceMappingURL=any.js.map

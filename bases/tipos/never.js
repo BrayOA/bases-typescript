@@ -1,6 +1,6 @@
 "use strict";
-(() => {
-    const error = (message) => {
+(function () {
+    var error = function (message) {
         if (false) {
             throw new Error(message);
         }
@@ -9,3 +9,4 @@
     error('Auxilio!');
     console.log('hola');
 })();
+//# sourceMappingURL=never.js.map

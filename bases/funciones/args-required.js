@@ -1,8 +1,9 @@
 "use strict";
-(() => {
-    const fullName = (firstName, lastName) => {
-        return `${firstName} ${lastName}`;
+(function () {
+    var fullName = function (firstName, lastName) {
+        return "".concat(firstName, " ").concat(lastName);
     };
-    const name = fullName('tony', 'stark');
-    console.log({ name });
+    var name = fullName('tony', 'stark');
+    console.log({ name: name });
 })();
+//# sourceMappingURL=args-required.js.map
